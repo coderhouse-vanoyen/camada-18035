@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body{
+	/*background: url('../media/patron.jpg');*/
+	background-color: #fbfbfb;
+}
+.bgWhite{
+	background-color: #fff;
+}
+.typeR{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+#novedades .producto{
+	padding: 20px;
+}
+#novedades .btn-primary {
+    color: #fff;
+    background-color: #b0f;
+    border-color: #bf3ca5;;
+}
+
+.navbar .nav-item{
+	background-color: red;
+	padding-left: 1rem;
+}
+@media all and (min-width: 768px){
+	.navbar .nav-item{
+		background-color: transparent;
+	}
+}
